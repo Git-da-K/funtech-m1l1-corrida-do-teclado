@@ -9,9 +9,9 @@ export const STR = {
     startTile: 'COMEÇAR',
     winTitle: 'Nível Completo!',
     timeoutTitle: "O tempo acabou!",
-    timeoutMsg: 'Tente novamente este nível.',
+    timeoutMsg: 'Tente este nível novamente..',
     restartLevel: 'Reiniciar nível',
-    level: (n) => `Level ${n}`,
+    level: (n) => `Nível ${n}`,
     progress: (c, t) => `${c}/${t}`,
   }
 };
